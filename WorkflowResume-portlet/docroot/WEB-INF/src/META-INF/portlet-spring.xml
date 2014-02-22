@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.resume.service.DetailsLocalService" class="com.resume.service.impl.DetailsLocalServiceImpl" />
+	<bean id="com.resume.service.persistence.DetailsPersistence" class="com.resume.service.persistence.DetailsPersistenceImpl" parent="basePersistence" />
+	<bean id="com.resume.service.ResumeLocalService" class="com.resume.service.impl.ResumeLocalServiceImpl" />
+	<bean id="com.resume.service.persistence.ResumePersistence" class="com.resume.service.persistence.ResumePersistenceImpl" parent="basePersistence" />
+</beans>

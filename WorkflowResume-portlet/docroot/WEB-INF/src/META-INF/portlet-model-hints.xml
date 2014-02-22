@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.resume.model.Details">
+		<field name="detailsId" type="long" />
+		<field name="surname" type="String" />
+		<field name="name" type="String" />
+		<field name="patronymic" type="String" />
+		<field name="address" type="String" />
+		<field name="phonenumber" type="String" />
+		<field name="email" type="String" />
+		<field name="position" type="String" />
+		<field name="education" type="String" />
+		<field name="knowledge" type="String" />
+		<field name="experience" type="String" />
+		<field name="quailities" type="String" />
+		<field name="additionally" type="String" />
+		<field name="resumeId" type="long" />
+	</model>
+	<model name="com.resume.model.Resume">
+		<field name="uuid" type="String" />
+		<field name="resumeId" type="long" />
+		<field name="resumeDate" type="Date" />
+		<field name="resumeText" type="String" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+		<field name="companyId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="userId" type="long" />
+	</model>
+</model-hints>
